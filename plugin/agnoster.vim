@@ -199,10 +199,10 @@ function! UpdateStatusline()
   " set statusline+=\ %{GetTerminal()}\  " terminal
 
   " Mode
-  " set statusline+=%#VimModePowerline#
-  " set statusline+=%{g:powerline_right_sep}
-  " set statusline+=%#VimMode#
-  " set statusline+=\ %{Mode()}\  " mode
+  set statusline+=%#VimModePowerline#
+  set statusline+=%{g:powerline_right_sep}
+  set statusline+=%#VimMode#
+  set statusline+=\ %{Mode()}\  " mode
 
 endfunction
 
